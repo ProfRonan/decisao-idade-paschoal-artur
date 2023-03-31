@@ -7,7 +7,9 @@ if age < 0 :
     print("não precisa se alistar.")
 elif age < 18 :
     print("não precisa se alistar")
-if age > 18 and age < 65 :
+elif age > 18 and age < 65 :
     print("Não esqueça de votar na próxima eleição.")
 elif age > 65 :
     print("Vá descansar.")
+else:
+    print("eita!")
