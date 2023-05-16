@@ -4,7 +4,6 @@ age = int(input("Digite sua idade: \n"))
 #Definindo condições
 if age < 0 :
     print("Impossível!")
-    print("Não precisa se alistar.")
 elif age < 18 :
     print("Não precisa se alistar.")
 elif age > 18 and age < 65 :
